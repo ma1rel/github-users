@@ -1,0 +1,73 @@
+.user-information {
+    padding: 30px 30px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    background-color: #1A615A;
+    color: #c2cc39;
+    width: 600px;
+    margin: 0 auto;
+
+}
+
+
+.user-information .image img {
+    width: 200px;
+    border-radius: 70px;
+    object-fit: cover;
+}
+
+.user-content {
+    padding: 10px;
+}
+
+.more-data a {
+    text-decoration: none;
+    color: #c2cc39;
+}
+
+.more-data a:hover {
+    color: rgb(64,199,129);
+}
+
+.more-data {
+    font-size: 13px;
+    font-weight: 100;
+}
+.more-data p {
+    padding: 4px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.more-data img {
+    width: 20px;
+}
+
+.back {
+    display: inline-block;
+    width: 100px;
+    margin: 20px;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    border-radius: 25px;
+    background: rgb(64,199,129);
+    box-shadow: 0 -3px rgb(53,167,110) inset;
+}
+.user-repos {
+    width: 400px;
+    padding: 10px 30px;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+.repo {
+    padding: 20px;
+    border: 1px solid #444;
+}
+
+.repo a {
+    color: #6cc644;
+}
